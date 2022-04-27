@@ -21,4 +21,4 @@
 10.I'll Do a Simple Group Joiner In My Free time so that you can automatically join groups with all the API's at Once.
 
  11.NB: This Script Is for Eductational Purposes. You are Responsible for your actions.
- [+] If you like the project, Give Young Cyb3rW4rrior a Star.
+- [+] If you like the project, Give Young Cyb3rW4rrior a Star.
