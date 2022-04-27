@@ -173,8 +173,8 @@ for s in range(v):
         n+=1
         if n % 20 == 0:
             info()
-            print (y+'[+] waiting for 3 seconds to avoid flooding....')
-            Sleep(3)
+            print (y+'[+] waiting for 12 seconds to avoid flooding....')
+            Sleep(12)
         elif q>= 9:
             client.disconnect()
             if x<v:
@@ -205,7 +205,7 @@ for s in range(v):
                 print (a+'[+] Adding {}'.format(user['name']))
                 user_to_add = client.get_input_entity(user['username'])
                 client(InviteToChannelRequest(target_group_entity,[user_to_add]))
-                print(m+"[+] Waiting for 2-4 Seconds...")
+                print(m+"[+] Waiting for 3-5 Seconds...")
                 with open('Members.csv', 'r',encoding='UTF-8') as f:
                     dat = csv.reader(f,delimiter=",",lineterminator="\n")
                     for tad in dat:
@@ -217,7 +217,7 @@ for s in range(v):
                     for line in lines:
                         writer.writerow(line)
 
-                time.sleep(random.randrange(2,4))
+                time.sleep(random.randrange(3,5))
 
                 q=0
             except PeerFloodError:
