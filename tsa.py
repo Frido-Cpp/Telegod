@@ -152,6 +152,7 @@ for s in range(v):
     users = []
     with open(input_file, encoding='UTF-8') as f:
         rows = csv.reader(f,delimiter=",",lineterminator="\n")
+        next(rows, True)
         for row in rows:
             lines.append(row)
             user = {}
