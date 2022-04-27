@@ -1,7 +1,11 @@
 # Telegod
 ||||||>>>[ This is a T3l3gr4m SCr4p3r and 4dd3r Tool for Linux ]<<<||||||
+[+] FEATURES [+]
+- Scrapes members from Telegram group and save to Members.csv file
+- Merges API's, When the first API gets flood waits, It jumps to next API.
+- It Is Automated.
 
-[+]INSTALLATION[+]
+[+] INSTALLATION [+]
 
 1. git clone https://github.com/Frido-Cpp/Telegod.git 
 2. pip3 install -r requirements.txt
