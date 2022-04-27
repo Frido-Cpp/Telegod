@@ -6,7 +6,7 @@
 - Merges API's, When the first API gets flood waits, It jumps to next API.
 - It Is Automated.
 
-  [+] INSTALLATION [+]
+[+] INSTALLATION [+]
 
 1. git clone https://github.com/Frido-Cpp/Telegod.git 
 2. pip3 install -r requirements.txt
