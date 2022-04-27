@@ -2,9 +2,10 @@
                          ||||||>>>[ This is a T3l3gr4m SCr4p3r and 4dd3r Tool for Linux ]<<<||||||
 
   [+] FEATURES [+]
-- Scrapes members from Telegram group and save to Members.csv file
+- Scrapes members from Telegram group and save to Members.csv file.
 - Merges API's, When the first API gets flood waits, It jumps to next API.
 - It Is Automated.
+- Auto Deletes Member from csv file if already exist add-to-group. and also after deletes memeber directly after adding Member.
 
 [+] INSTALLATION [+]
 
