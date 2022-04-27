@@ -1,5 +1,5 @@
 # Telegod
-                      ||||||>>>[ This is a T3l3gr4m SCr4p3r and 4dd3r Tool for Linux ]<<<||||||
+                  ||||||>>>[ This is a T3l3gr4m SCr4p3r and 4dd3r Tool for Linux ]<<<||||||
 
   [+] FEATURES [+]
 - Scrapes members from Telegram group and save to Members.csv file.
