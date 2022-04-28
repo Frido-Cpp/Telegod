@@ -223,7 +223,7 @@ for s in range(v):
                 q=0
             except PeerFloodError:
                 print(r+'[+] Getting Flood Error from telegram. Script is stopping now. Please try again after some time.')
-                x+=1
+                q+=1
                 break
 
             except PhoneNumberBannedError:
